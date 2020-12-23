@@ -24,6 +24,7 @@ h1, h2, h3 {
 p {
      margin:0;
      padding: 1em 0;
+     text-align: center;
 }
 
 .btn {
@@ -46,7 +47,7 @@ p {
 #showcase {
      position: relative;
      background-color: #333;
-     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/code.jpg');
+     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/beach_bapsy.jpg');
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -139,11 +140,11 @@ p {
      }
 
      #section-a .content-text {
-          columns: 2;
+          columns: 1;
           column-gap: 2em;
      }
 
-     #section-a .content-text p {
+     #section-a .content-text {
           padding-top:0;
      }
 
